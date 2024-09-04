@@ -14,6 +14,23 @@ This repository contains an analysis of the "The Look Ecommerce" dataset, focusi
 - `/dashboards/`: Screenshots of the Tableau dashboards.
 - `/tableau/`: The Tableau workbook file (.twbx) for the analysis.
 
+/The-Look-Ecommerce-Analysis
+│
+├── /data/                           # Dati grezzi e file SQL
+│   ├── queries.sql                  # Script SQL per l'estrazione dei dati
+│   ├── cleaned_data.csv             # Dati puliti e trasformati (se appropriato)
+│   └── data_augmentation.py         # Script Python per il data cleaning e l'augmentation
+│
+├── /dashboards/                     # Immagini delle dashboard di Tableau
+│   ├── profit_analysis.png          # Screenshot della dashboard sui profitti
+│   └── orders_analysis.png          # Screenshot della dashboard sugli ordini
+│
+├── /tableau/                        # File Tableau se vuoi includerli
+│   └── analysis.twbx                # File .twbx di Tableau
+│
+├── README.md                        # Descrizione del progetto
+└── requirements.txt                 # Librerie Python necessarie (se vuoi includere il codice)
+
 ## Analysis
 
 ### Sales and Orders
