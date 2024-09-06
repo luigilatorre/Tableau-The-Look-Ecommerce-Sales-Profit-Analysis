@@ -29,7 +29,6 @@ This repository contains an analysis of the "The Look Ecommerce" dataset, focusi
 │   └── TLE_Analysis.twbx            # File .twbx di Tableau
 │
 ├── README.md                        # Questo file
-└── requirements.txt                 # Librerie Python necessarie
 ```
 ## Analysis
 
