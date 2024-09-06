@@ -18,8 +18,7 @@ This repository contains an analysis of the "The Look Ecommerce" dataset, focusi
 /The-Look-Ecommerce-Analysis
 │
 ├── /data/                           # Dati grezzi e file SQL
-│   ├── queries.sql                  # Script SQL per l'estrazione dei dati
-│   ├── cleaned_data.csv             # Dati puliti e trasformati
+│   ├── extraction-query.sql         # Script SQL per l'estrazione dei dati
 │   └── data_augmentation.py         # Script Python per pulizia e arricchimento dati
 │
 ├── /dashboards/                     # Immagini delle dashboard di Tableau
@@ -27,7 +26,7 @@ This repository contains an analysis of the "The Look Ecommerce" dataset, focusi
 │   └── orders_analysis.png          # Screenshot della dashboard sugli ordini
 │
 ├── /tableau/                        # File Tableau
-│   └── analysis.twbx                # File .twbx di Tableau
+│   └── TLE_Analysis.twbx            # File .twbx di Tableau
 │
 ├── README.md                        # Questo file
 └── requirements.txt                 # Librerie Python necessarie
